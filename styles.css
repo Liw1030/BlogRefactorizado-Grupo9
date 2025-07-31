@@ -1,61 +1,36 @@
-footer {
-    background: 
-    
-    linear-gradient(rgba(255, 255, 255, 0)), 
-    url("imagenes/fondov2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: black;
-    text-shadow: 3px 3px 3px rgb(253, 253, 253);
-    padding: 40px 20px;
-    /* font-family: Arial, sans-serif; */
-    font-family: 'Press Start 2P', Arial, sans-serif;
-    font-size: 16px;
-
+body.mario-bg {
+  background: url('https://elcomercio.pe/resizer/2glKfLpFT7-rqbi1NCklZLqui1Y=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/FN3ETS723JDORMAE5HHAWWUSLQ.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+.contacto-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px #ffcc00;
 }
 
-.footer-container > div {
-    flex: 1 1 200px;
+.form-label,
+.form-control,
+.btn,
+.alert {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
 }
 
-.footer-enlaces ul {
-    list-style: none;
-    padding: 0;
+.info-contacto {
+  background-color: #f0f8ff;
+  color: #000;
+  padding: 1rem;
+  border: 2px dashed #0077cc;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
-.footer-enlaces a,
-.footer-siguenos a {
-    color: black;
-    text-decoration: none;
-}
-
-.footer-enlaces a:hover,
-.footer-siguenos a:hover {
-    color: rgba(248, 9, 9, 0.788);
-    text-decoration: underline;
-}
-
-.footer-siguenos img {
-    width: 60px;
-    height: 60px;
-}
-
-
-.footer-final {
-    text-align: center;
-    margin: 30px;
-    font-size: 0.9rem;
-    border-top: 1px solid white;
-    padding-top: 15px;
-}
 
 
 
