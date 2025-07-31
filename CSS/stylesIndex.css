@@ -1,0 +1,93 @@
+:root {
+    --fuente-pixel: 'Press Start 2P', cursive;
+    --color-fondo: #ffe0b3;
+    --color-flecha: #df5500;
+    --color-hover: #ffbe75;
+    --ColorV: #04724D;
+    --ColorR: #ff8282;
+}
+
+
+html, body {
+    font-family: var(--fuente-pixel);
+    margin: 0;
+    background-color: #fff;
+    background: url(./Public/Fondo.jpg);
+    background-size: cover;
+      min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+}
+
+#sectionPrincipal {
+    flex: 1;
+}
+
+.carruselJuegos {
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 5px 20px rgba(201, 131, 103, 0.5);
+    border-radius: 10px;
+    background-color: var(--ColorB);
+    text-align: center;
+}
+
+.swiper-wrapper {
+    display: inline-block;
+}
+
+.swiper-slide {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #f0f0f0dc;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    border: 5px solid rgba(3, 3, 3, 0.404);
+}
+
+.swiper-slide:hover {
+    transform: scale(1.05);
+    background-color: var(--ColorR);
+    color: var(--ColorB);
+}
+
+.swiper-slide h1.fechaIndex {
+    font-size: 22px;
+    color: var(--ColorV);
+    -webkit-text-stroke: 1px black;
+    font-weight: 700px;
+}
+
+.swiper-slide img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px var(--ColorR);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: var(--ColorV);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    color: var(--ColorV);
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #111111;
+    margin-bottom: 50px;
+    text-align: center;
+}
