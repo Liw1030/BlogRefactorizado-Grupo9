@@ -8,7 +8,7 @@
 }
 
 
-html, body {
+body#bodyHome {
     font-family: var(--fuente-pixel);
     margin: 0;
     background-color: #fff;
@@ -18,7 +18,7 @@ html, body {
   display: grid;
   grid-template-rows: auto 1fr auto;
 
-}
+} 
 
 #sectionPrincipal {
     flex: 1;
