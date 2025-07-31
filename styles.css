@@ -51,10 +51,10 @@ footer {
 
 .footer-final {
     text-align: center;
-    margin: 30px;
+    /* margin: 30px; */
     font-size: 0.9rem;
     border-top: 1px solid white;
-    padding-top: 15px;
+    /* padding-top: 15px; */
 }
 
 
