@@ -1,58 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylessobre.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="navbar.css">
-    <title>Sobre Nosotros</title>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesIndex.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="/styles1.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="stylessobre.css">
+  <title>Sobre Nosotros</title>
 </head>
-<body>
+<body class="body-sobre">
 
-    <div id="navbar"></div>
+  <div id="navbar"></div>
 
-    <header>
-        <h1>¿Quienes somos?</h1>
-    </header>
-    <main>
-        <div id="parrafo">
-            <p>Somos un grupo de estudiantes del programa Generation y enfocamos nuestro blog a hablar sobre el videojuego Mario Bros</p>
+  <header class="text-center my-5">
+    <h1 class="titulo-principal animacion-parpadeo">¿Quiénes somos?</h1>
+  </header>
+
+  <main class="container text-center">
+    <section class="mb-5">
+      <div id="parrafo" class="parrafo-sobre border border-danger-subtle">
+        <p>
+          Somos un grupo de estudiantes del programa Generation y enfocamos nuestro blog a hablar sobre el videojuego Mario Bros
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="titulo-secundario animacion-parpadeo">Integrantes</h2>
+      <div class="row justify-content-center g-4">
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card-sobre integrante-hover border border-info">
+            <img src="imagenes/1.png" alt="Luis Vera" class="img-integrante" />
+            <p class="nombre">Luis <br> Vera</p>
+          </div>
         </div>
-        
-        <section>
-        <h3>Nuestros integrantes</h3>
-        <div id="imagenes">
-            <div class="integrantes">
-                <img src="/imagenes/1.png" alt="">
-                <p>Luis <br> Vera</p>
-            </div>
-            <div class="integrantes">
-                <img src="imagenes/5.png" alt="">
-                <p>Johana <br> Usaquen</p>
-            </div>
-            
-            <div class="integrantes">
-                <img src="imagenes/3.png" alt="">
-                <p>Andres <br> Cuervo</p>
-            </div>
-        
-            <div class="integrantes">
-                <img src="imagenes/2.png" alt="">
-                <p>Laura <br> Lozada</p>
-            </div>
-        
-            <div class="integrantes">
-                <img src="imagenes/4.png" alt="">
-                <p>Diana <br> Catama</p>
-            </div>
-        
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card-sobre integrante-hover border border-info">
+            <img src="imagenes/5.png" alt="Johana Usaquen" class="img-integrante" />
+            <p class="nombre">Johana <br> Usaquen</p>
+          </div>
         </div>
-        
-        </section>
-    </main>
-    <div id="footer"></div>
-    <script src="Main.js"></script>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card-sobre integrante-hover border border-info">
+            <img src="imagenes/3.png" alt="Andres Cuervo" class="img-integrante" />
+            <p class="nombre">Andres <br> Cuervo</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card-sobre integrante-hover border border-info">
+            <img src="imagenes/2.png" alt="Laura Lozada" class="img-integrante" />
+            <p class="nombre">Laura <br> Lozada</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card-sobre integrante-hover border border-info">
+            <img src="imagenes/4.png" alt="Diana Catama" class="img-integrante" />
+            <p class="nombre">Diana <br> Catama</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <div id="footer" class="mt-5"></div>
+
+  <script src="Main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
