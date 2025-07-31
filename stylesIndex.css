@@ -68,3 +68,7 @@ p {
     margin-bottom: 50px;
     text-align: center;
 }
+.juego-slide {
+
+    cursor: pointer;
+}
