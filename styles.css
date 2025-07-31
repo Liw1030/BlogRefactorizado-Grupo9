@@ -8,7 +8,7 @@ footer {
     background-position: center;
     color: black;
     text-shadow: 3px 3px 3px rgb(253, 253, 253);
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     /* font-family: Arial, sans-serif; */
     font-family: 'Press Start 2P', Arial, sans-serif;
     font-size: 16px;
@@ -22,7 +22,7 @@ footer {
     gap: 20px;
 }
 
-.footer-container > div {
+.footer-container div {
     flex: 1 1 200px;
 }
 
